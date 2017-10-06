@@ -943,7 +943,7 @@ hr{
 #profile-description .show-more-height { height: 300px; overflow:hidden; }
 
 .details{
-    margin-left: 20px;
+    /*margin-left: 20px;*/
     border: 1px solid #45b1b5;
     padding: 25px;
     color: #fff;
