@@ -155,10 +155,10 @@ a:focus
     background-color: blue;
 }
 
-.active { 
+/*.active { 
     color: white;
     background-color: blue;
-}
+}*/
 
 .navbar-toggle {
     padding: 4px 6px;
@@ -956,6 +956,7 @@ hr{
 .carousel-control.left,.carousel-control.right  {
     background:none;
 width:25px;
+margin: 0px 5%;
 }
 .carousel-control.left {
     left:-25px;
@@ -1016,6 +1017,10 @@ width:25px;
 }
 .ab {
     position: absolute;
+}
+
+.connt{
+    background-color: #fff;
 }
 
 /*.person-text {
