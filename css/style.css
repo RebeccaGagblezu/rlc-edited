@@ -953,15 +953,22 @@ hr{
 
 /*pract*/
 
-.carousel-control.left,.carousel-control.right  {background:none;width:25px;}
-.carousel-control.left {left:-25px;}
-.carousel-control.right {right:-25px;}
+.carousel-control.left,.carousel-control.right  {
+    background:none;
+width:25px;
+}
+.carousel-control.left {
+    left:-25px;
+    }
+.carousel-control.right {
+    right:-25px;
+    }
 .broun-block {
     background: url("http://myinstantcms.ru/images/bg-broun1.jpg") repeat scroll center top rgba(0, 0, 0, 0);
     padding-bottom: 34px;
 }
 .block-text {
-    /*background-color: #fff;*/
+    background-color: #1e5b7e;
     /*border-radius: 5px;*/
     /*box-shadow: 0 3px 0 #2c2222;*/
     color: #fff;
@@ -969,6 +976,11 @@ hr{
     margin-top: 27px;
     padding: 80px 15px;
     border-right: 1px solid #ccc
+}
+
+.coll{
+    padding-right: 0px;
+    padding-right: 0px;
 }
 .block-text a {
  color: #fff;
