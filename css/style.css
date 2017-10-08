@@ -218,7 +218,7 @@ a:focus
 .introText{
     float: left;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.64);
+    background-color: rgba(3, 71, 177, 0.43);
     padding: 70px 0;
     text-align: center;
 }
@@ -411,16 +411,16 @@ a:focus
 
   .btn-default:hover,
 .btn-default:focus{
-    border: 3px solid #45b1b5;
-    color: #45b1b5;
+    border: 3px solid #0347b1;
+    color: #0347b1;
     background-color: #f4f4f4;
 }
 
  .btn-default{
-    border: 1px solid #45b1b5;
+    border: 1px solid #fff;
     outline: 0;
     color: white;
-    background-color: #45b1b5;
+    background-color: #0347b1;
 }
 
 .btn-huge {
@@ -573,7 +573,7 @@ body {
 /*team names*/
 .teamName{
     font-size: 25px;
-    color: #45b1b5;
+    color: #0347b1;
     
 }
 
@@ -603,7 +603,7 @@ color: #FFFFFF;
 }*/
 
 .svgg{
-    fill: #45b1b5;
+    fill: #0347b1;
 }
 
 /*.svgg:hover{
@@ -622,7 +622,7 @@ color: #FFFFFF;
     /* box-shadow: 5px 5px 5px rgba(4, 31, 45, 0.31); */
     /* box-shadow: 2px 2px 2px rgba(101, 112, 119, 0.45); */
     margin-bottom: 30px;
-    border: 1px solid #45b1b5;
+    border: 1px solid #0347b1;
 }
 
 .teamCards{
@@ -633,7 +633,7 @@ color: #FFFFFF;
     /*box-shadow: 2px 2px 2px rgba(101, 112, 119, 0.45);*/
     margin-bottom: 30px;
     background-color: #fff;
-    border: 1px solid #45b1b5;
+    border: 1px solid #0347b1;
 }
 
 .teamCard2{
@@ -876,16 +876,16 @@ hr{
 .btn-info {
     color: #fff;
     
-    background-color: #45b1b5;
-    border-color: #45b1b5;
+    background-color: #0347b1;
+    border-color: #0347b1;
     font-size: 15px;
 }
 
 .btn-info:hover{
    background-color: #fff;
     /*border-color: #45b1b5;*/
-    border: 3px solid #45b1b5;
-    color:  #45b1b5;
+    border: 3px solid #0347b1;
+    color:  #0347b1;
 }
 .fa-phone{
     color: #fff;
@@ -932,9 +932,9 @@ hr{
     /*padding-top: 5px; */
     height: 20px; 
     text-align: center; 
-    border: 1px solid #45b1b5;
+    border: 1px solid #0347b1;
     cursor: pointer;
-    background: #45b1b5;
+    background: #0347b1;
     padding-bottom: 30px;
 }
 #profile-description .show-more:hover { 
@@ -944,7 +944,7 @@ hr{
 
 .details{
     /*margin-left: 20px;*/
-    border: 1px solid #45b1b5;
+    border: 1px solid #0347b1;
     padding: 25px;
     color: #fff;
 }
@@ -1047,3 +1047,20 @@ margin: 0px 5%;
 #practice{
     background-color: #1e5b7e;
 }
+
+/*recaptcha*/
+
+.g-recaptcha{
+  position: relative;
+  padding-bottom: 26.25%;
+  padding-top: 0px;
+  height: 0;
+  overflow: hidden;
+  }
+  .g-recaptcha > iframe{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
